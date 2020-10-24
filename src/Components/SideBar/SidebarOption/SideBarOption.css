@@ -1,0 +1,21 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.sidebarOption:hover {
+  background-color: #3e93fd;
+  color: white;
+}
+.sidebarOption__info {
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebarOption__info > small {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
